@@ -26,6 +26,6 @@ wss.on('connection', function connection(socket) {
     });
     socket.on("disconnect", () => {
     });
-    socket.send("hello");
+    // socket.send("hello");
     console.log('connected');
 });

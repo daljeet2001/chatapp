@@ -36,7 +36,7 @@ wss.on('connection',function connection(socket){
        
     })
 
-    socket.send("hello");
+    // socket.send("hello");
 
     console.log('connected');
 
